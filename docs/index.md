@@ -1,3 +1,3 @@
 # En construction !
 
-[En construction](images/construction.gif)
+![En construction](images/construction.gif)
