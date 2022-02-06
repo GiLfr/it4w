@@ -15,11 +15,11 @@ copyright: "Copyright &copy; 2000-2022 Gilles Lantéri"
 # Configuration
 theme:
   name: "material"
-  palette:
-    primary: deep purple
-    accent: purple
+  # palette:
+  #   primary: deep purple
+  #   accent: purple
   icon:
-    logo: material/movie-open-check
+    logo: material/database-search-outline
   features:
     # - navigation.indexes
     - navigation.instant
@@ -28,7 +28,7 @@ theme:
     - navigation.top
     - toc.integrate
   language: fr
-  # dark: "true"
+  dark: "true"
   # # favicon: "images/favicon/logo.svg"
   # # logo: "images/logo-white.svg"
   # logo:
@@ -75,6 +75,7 @@ extra_javascript:
   #   - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
 # # Extensions
+###
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -84,6 +85,7 @@ markdown_extensions:
           - overrides/.icons
   - attr_list
   - admonition
+###
 #   - codehilite:
 #       guess_lang: false
 #   - footnotes
